@@ -107,15 +107,16 @@ html {
     width: 350px;
     margin-bottom: 6rem;
     border: 1px solid rgba(0, 128, 0, 0.143);
-    box-shadow: 0 2px 56px yellowgreen;
+    
     border-radius: 7px;
-    background-color: #080908a0;
+    /* background-color: #080908a0; */
     transition: transform 2s ease;
-    /* filter: drop-shadow(0 1px 11px yellowgreen); */
+    filter: drop-shadow(0 1px 11px yellowgreen);
 }
 .contenido-derecho img:hover {
     /* width: 410px;
     transition: 2s ease;*/
-    background-color: #000; 
     transform: scale(1.3);
+    transition: 1.4s ease;
+    background-color: #000; 
 }
