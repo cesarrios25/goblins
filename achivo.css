@@ -4,7 +4,6 @@ h1{
     font-size: 50px;
 }
 
-
 .arriba{
     width: 100%;
     height: auto;
@@ -20,19 +19,18 @@ h1{
     font-size: 25px;
 }
 .imagen_arriba{
-    width: 35%;
-    margin-right: 5%;
+    width: 15%;
+    margin-right: 40%;
     border: 0.7px solid green;
-    border-radius: 8px;
+    border-radius: 12px;
     box-shadow: 0 14px 28px rgba(255, 255, 0, 0.512);
-
 }
-.imagen_arriba:hover{
-    width: 500px;
-    rotate: 20px;
+.imagen_arriba img:hover{
+    transform: scale();
+    rotate: 20deg;
     transition: 2s;
-
 }
+
 
 .abajo {
     width: 100%;
@@ -49,14 +47,14 @@ h1{
 }
 
 .imagen_abajo{
-    width: 35%;
-    margin-right: 5%;
+    width: 15%;
+    margin-right: 40%;
     border: 0.7px solid green;
-    border-radius: 8px;
-    box-shadow: 0 14px 28px rgba(255, 255, 0, 0.512);
+    border-radius: 12px;
+    box-shadow: 0 14px 19px rgba(255, 255, 0, 0.512);
 }
-.imagen_abajo:hover{
-    width: 500px;
-    rotate: 20px;
+.imagen_abajo img:hover{
+    transform: scale();
+    rotate: 20deg;
     transition: 2s;
 }
