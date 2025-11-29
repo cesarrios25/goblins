@@ -227,7 +227,7 @@ article {
     /* transform: scale(0.5); */
     /* margin-top: -280px; */
     position: relative;
-    top: -880;
+    top: -880px;
     margin-right: 170px;
     filter: drop-shadow(0 1px 11px yellowgreen)
 }
