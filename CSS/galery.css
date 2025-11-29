@@ -22,7 +22,8 @@ body {
 
 .nav {  
     width: 100%;
-    position: fixed;     
+    position: fixed; 
+    z-index: 999;    
     padding: 18px 40px; 
     margin-bottom: 4.5rem;      
 }
