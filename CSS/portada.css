@@ -14,71 +14,71 @@ html {
     background-size: cover;          
     background-position: center;    
     background-repeat: no-repeat;     
-    overflow: hidden;  
-    opacity: 4;   
+    overflow: hidden;     
 }
 .contenedor-principal .titulo-principal {
-    font-size: 14.7rem;
-    margin-top: 1rem;
+    font-size: 10.7rem;
+    margin-top: 3rem;
     text-align: center;
     /* color: rgb(178, 173, 173); */
     color: green;
-    letter-spacing: 0.6rem;
-    box-shadow: 0 0.6rem 0.4rem rgba(172, 255, 47, 0.28);
-    margin-bottom: 3rem;
+    letter-spacing: 0.9rem;
+    /* box-shadow: 0 0.6rem 0.4rem rgba(172, 255, 47, 0.28); */
+    margin-bottom: 5rem; 
 }
-.contenedor-principal .nav {       
-  padding: 18px 40px; 
-  margin-bottom: 4.5rem;      
+.contenedor-principal .nav { 
+    width: 100%;
+    height: 100px;      
+    padding: 18px 40px; 
+    margin-bottom: 4.5rem;      
 }
 
 .contenedor-principal .nav ul {
-  list-style: none;
-  display: flex; 
-  justify-content: center;
-  align-items: center;            
-  gap: 45px;
+    width: 100%;
+    list-style: none;
+    display: flex; 
+    justify-content: center;
+    align-items: center;            
+    gap: 5.2rem;
 }
 
 .contenedor-principal .nav a {
   text-decoration: none;
   /* color: green; */
   color: rgb(178, 173, 173);
-  font-weight: 500;
+  font-weight: 200;
   letter-spacing: 2px;       
   transition: 0.3s ease;
-  font-size: 5rem;
-  border-bottom: 0.8px solid green;
-  box-shadow: 0 6px 36px rgba(153, 205, 50, 0.751);
+  font-size: 3.5rem;
+  border-bottom: 1px solid green;
+  box-shadow: 29px 9px 36px rgba(153, 205, 50, 0.751);
 }
 
 .contenedor-principal .nav a:hover {
     color: green; 
     border: 0.5rem solid green; 
-    padding: 0.7rem;
+    padding: 0.4rem;
     border-radius: 0.7rem; 
-    font-size: 5.3rem;  
+    font-size: 4.3rem;  
     transition: 1s;
 }
-
 .contenedor-contenido {
     width: 100%;
-    height: auto;
+    
     display: flex;
-    margin-top: 5rem;
+    margin-top: 3rem;
 }
-
 .contenido-izquierdo {
     width: 70%;
-    margin-top: 1rem;
+
 }
 .contenido-izquierdo .titulo-izquierdo {
     text-align: center;
-    /* color: green; */
     color: rgb(189, 185, 185);
     font-size: 9rem;
     margin-top: 4rem;
     font-size: 4.5rem;
+    color: green;
     
 }
 .contenido-izquierdo p {
@@ -88,35 +88,23 @@ html {
     /* color: green; */
     color: rgb(178, 173, 173);
     letter-spacing: 0.1rem;
+    line-height: 1.6;
 }
-/* .contenido-izquierdo a {
-    text-decoration: none;
-    list-style: none;
-    color: rgb(178, 173, 173);
-} */
 .contenido-derecho {
-    width: 30%;
-    display: flex;           
-    justify-content: center; 
-    align-items: center;     
-    margin: 0 auto; 
-    margin-top: 1rem;
+    width: 30%; 
 }
 .contenido-derecho img {
-    max-width: 100%;        
-    width: 350px;
-    margin-bottom: 6rem;
-    /* border: 1px solid rgba(0, 128, 0, 0.143); */
-    
+            
+    width: 430px;
     border-radius: 7px;
     /* background-color: #080908a0; */
     transition: transform 2s ease;
-    filter: drop-shadow(0 1px 11px yellowgreen);
+    filter: drop-shadow(0 1px 11px green);
 }
 .contenido-derecho img:hover {
     /* width: 410px;
     transition: 2s ease;*/
-    transform: scale(1.5);
+    transform: scale(1.1);
     transition: 1.4s ease;
     /* background-color: #000;  */
 }
