@@ -48,3 +48,15 @@ h1{
     font-size: 25px;
 }
 
+.imagen_abajo{
+    width: 35%;
+    margin-right: 5%;
+    border: 0.7px solid green;
+    border-radius: 8px;
+    box-shadow: 0 14px 28px rgba(255, 255, 0, 0.512);
+}
+.imagen_abajo:hover{
+    width: 500px;
+    rotate: 20px;
+    transition: 2s;
+}
