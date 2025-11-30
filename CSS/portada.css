@@ -108,3 +108,93 @@ html {
     transition: 1.4s ease;
     /* background-color: #000;  */
 }
+
+
+/* --------------- ESTILOS PARA MEDIA QUERIES --------------- */
+
+@media (width <= 768px) {
+    .contenedor-principal {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;                   
+        /* background-image: url("../assets/fondo.png"); */
+        /* background: linear-gradient(135deg, #000000, #022002); */
+        background-size: cover;          
+        background-position: center;    
+        background-repeat: no-repeat;     
+        overflow: hidden;     
+    }
+    .contenedor-principal .titulo-principal {
+        font-size: 6rem;
+        margin-top: 5rem;
+        text-align: center;
+        /* color: rgb(178, 173, 173); */
+        color: green;
+        letter-spacing: 0.7rem;
+        /* box-shadow: 0 0.6rem 0.4rem rgba(172, 255, 47, 0.28); */
+        margin-bottom: 4.5rem; 
+    }
+    .contenedor-principal .nav { 
+        width: 100%;
+        height: 60px;      
+        padding: 18px 40px; 
+        margin-bottom: 2rem;   
+    }
+
+    .contenedor-principal .nav ul {
+        width: 100%;
+        list-style: none;
+        display: flex; 
+        justify-content: center;
+        align-items: center;            
+        gap: 1.2rem;
+    }
+
+    .contenedor-principal .nav a {
+        text-decoration: none;
+        color: rgb(178, 173, 173);
+        font-weight: 200;
+        letter-spacing: 2px;       
+        font-size: 2rem;
+        border-bottom: 1px solid green;
+        box-shadow: 29px 9px 36px rgba(153, 205, 50, 0.751);
+    }
+    .contenedor-principal .nav a:hover {
+        color: rgb(178, 173, 173);
+        border: 1px solid green;  
+        padding: 0;             
+        border-radius: 0;
+        font-size: 2rem;  
+        box-shadow: none;       
+        transition: none;     
+}
+    .contenedor-contenido {
+        width: 100%;
+        padding: 1rem;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        overflow-x: hidden;
+        margin-top: 1rem;
+    }
+    .contenido-izquierdo .titulo-izquierdo {
+        width: 400px;
+        margin-top: 2rem;
+        font-size: 2.8rem;
+        text-align: center;
+        color: green;
+    }
+    .contenido-izquierdo p {
+        width: 365px;
+        line-height: 1.1;
+        margin: 2rem; 
+        font-size: 1.8rem;
+        color: rgb(178, 173, 173);
+    }
+    .contenido-derecho {
+        display: none;
+    }
+
+}
+
