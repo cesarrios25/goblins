@@ -188,7 +188,7 @@ html {
     .contenido-izquierdo p {
         width: 365px;
         line-height: 1.1;
-        margin: 2rem; 
+        margin: 2rem 1rem 1rem 1rem; 
         font-size: 1.8rem;
         color: rgb(178, 173, 173);
     }
