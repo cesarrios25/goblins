@@ -112,7 +112,7 @@ html {
 
 /* --------------- ESTILOS PARA MEDIA QUERIES --------------- */
 
-@media (max-width: 400px) {
+@media (max-width: 768px) {
     .contenedor-principal {
         display: flex;
         flex-direction: column;
@@ -187,7 +187,7 @@ html {
         font-size: 2.8rem;
         text-align: center;
         color: green;
-        margin-bottom: 0rem;
+        margin-bottom: 1.1rem;
     }
     .contenido-izquierdo p {
         width: 80%;
