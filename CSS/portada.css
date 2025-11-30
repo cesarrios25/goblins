@@ -112,7 +112,7 @@ html {
 
 /* --------------- ESTILOS PARA MEDIA QUERIES --------------- */
 
-@media (min-width: 400px) and (max-width: 768px) {
+@media (min-width: 400px) {
     .contenedor-principal {
         display: flex;
         flex-direction: column;
@@ -161,8 +161,8 @@ html {
         box-shadow: 29px 9px 36px rgba(153, 205, 50, 0.751);
     }
     .contenedor-principal .nav a:hover {
-        color: rgb(178, 173, 173);
-        border: 1px solid green;  
+        color: none;
+        border: none;  
         padding: 0;             
         border-radius: 0;
         font-size: 2rem;  
