@@ -112,12 +112,12 @@ html {
 
 /* --------------- ESTILOS PARA MEDIA QUERIES --------------- */
 
-@media (width <= 768px) {
+@media (max-width: 768px) {
     .contenedor-principal {
         display: flex;
         flex-direction: column;
         width: 100%;
-        height: 100vh;                   
+        height: 100dvh;                   
         /* background-image: url("../assets/fondo.png"); */
         /* background: linear-gradient(135deg, #000000, #022002); */
         background-size: cover;          
