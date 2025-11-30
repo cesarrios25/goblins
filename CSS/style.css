@@ -197,3 +197,43 @@ body {
     font-size: 2.2rem;
     text-shadow: 0 0 10px green;
 }
+
+/* -------------- CAPITULO 1 --------------------- */
+
+.contenedor-cap1 {
+    width: 90%;
+    margin: 0 auto;
+}
+.titulo-uno {
+    font-size: 4rem;
+    text-align: center;
+    margin: 2rem 0px 3rem 0rem;
+    color: #47e412;
+    
+}
+.titulo-dos {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    color: green;
+}
+.parrafo-uno {
+    font-size: 2rem;
+    line-height: 1.3;
+    text-align: justify;
+}
+.parrafo-uno:hover {
+    background-color: rgba(0, 128, 0, 0.196);
+    transition: 1.1s ease;
+}
+.contenedor-img-cap1 {
+    width: 100%;
+    height: 40rem;
+    margin-top: 1.9rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.contenedor-img-cap1 img {
+    width: 70rem;
+    filter:drop-shadow(0px 1px 11px rgb(46, 197, 46));
+}
