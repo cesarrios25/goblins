@@ -112,7 +112,7 @@ html {
 
 /* --------------- ESTILOS PARA MEDIA QUERIES --------------- */
 
-@media (min-width: 400px) {
+@media (max-width: 400px) {
     .contenedor-principal {
         display: flex;
         flex-direction: column;
