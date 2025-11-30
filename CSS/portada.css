@@ -127,19 +127,19 @@ html {
     }
     .contenedor-principal .titulo-principal {
         font-size: 6rem;
-        margin-top: 5rem;
+        margin-top: 1rem;
         text-align: center;
         /* color: rgb(178, 173, 173); */
         color: green;
         letter-spacing: 0.7rem;
         /* box-shadow: 0 0.6rem 0.4rem rgba(172, 255, 47, 0.28); */
-        margin-bottom: 4.5rem; 
+        margin-bottom: 0.5rem; 
     }
     .contenedor-principal .nav { 
         width: 100%;
         height: 60px;      
         padding: 18px 40px; 
-        margin-bottom: 2rem;   
+        margin-bottom: 1rem;   
     }
 
     .contenedor-principal .nav ul {
@@ -183,11 +183,11 @@ html {
     }
     .contenido-izquierdo .titulo-izquierdo {
         width: 100%;
-        margin-top: 2rem;
+        margin-top: 0rem;
         font-size: 2.8rem;
         text-align: center;
         color: green;
-        margin-bottom: 3rem;
+        margin-bottom: 0rem;
     }
     .contenido-izquierdo p {
         width: 80%;
