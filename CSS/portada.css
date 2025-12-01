@@ -42,19 +42,16 @@ html {
     gap: 5.2rem;
 }
 
-
 .contenedor-principal .nav a {
   text-decoration: none;
   /* color: green; */
   color: rgb(178, 173, 173);
-  text-align: center;
   font-weight: 200;
   letter-spacing: 2px;       
   transition: 0.3s ease;
   font-size: 3.5rem;
   border-bottom: 1px solid green;
   box-shadow: 29px 9px 36px rgba(153, 205, 50, 0.751);
-
 }
 
 .contenedor-principal .nav a:hover {
@@ -98,7 +95,7 @@ html {
 }
 .contenido-derecho img {
             
-    width: 500px;
+    width: 430px;
     border-radius: 7px;
     /* background-color: #080908a0; */
     transition: transform 2s ease;
