@@ -61,12 +61,52 @@ body {
 }
 /* ----------------- ESTILO SECCIONES Y CAPITULOS ----------------- */
 
-/* -------------- CAPITULO 2 --------------------- */
+/* ---------------- ESTILO CAPITULO 1 ---------------- */
+
+.contenedor-cap1 {
+    width: 90%;
+    margin: 0 auto;
+}
+.titulo-uno {
+    font-size: 4rem;
+    text-align: center;
+    margin: 2rem 0px 3rem 0rem;
+    color: #47e412;
+    
+}
+.titulo-dos {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    color: green;
+}
+.parrafo-uno {
+    font-size: 2rem;
+    line-height: 1.3;
+    text-align: justify;
+}
+.parrafo-uno:hover {
+    background-color: rgba(0, 128, 0, 0.196);
+    transition: 1.1s ease;
+}
+.contenedor-img-cap1 {
+    width: 100%;
+    height: 40rem;
+    margin-top: 1.9rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.contenedor-img-cap1 img {
+    width: 70rem;
+    filter:drop-shadow(0px 1px 11px rgb(46, 197, 46));
+}
+
+/* ---------------- ESTILO CAPITULO 2 ---------------- */
 .titulo-cap2 {
     font-size: 4rem;
     color: #47e412;
     text-align: center;
-    margin: 9rem 0 2rem 0;
+    margin: 12rem 0 2rem 0;
 }
 .parrafo-cap2 {
     font-size: 2.1rem;
@@ -75,10 +115,8 @@ body {
 }
 .contenedor-capitulo2 {
     width: 100%;
-    height: 130rem;
+    height: 115rem;
     padding: 3rem;
-    /* border: 1px solid rgba(236, 233, 233, 0.316); */
-    /* box-shadow: 0 2px 45px green; */
     display: flex;
     margin-top: 5rem 
 }
@@ -100,7 +138,7 @@ body {
     font-size: 2rem;
     color: rgb(178, 173, 173);
     margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
     border-radius: 8px;
     line-height: 1.3;
 }
@@ -137,7 +175,255 @@ body {
     transform: scale(1.6);
 }
 
-/* -------------- CAPITULO 5 --------------------- */
+
+/* ---------------- ESTILO CAPITULO 3 ---------------- */
+.arriba{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    padding: 20px;
+}
+
+.contenido_cap3{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.contenido_cap3 h1{
+    font-size: 4rem;
+    margin-bottom: 3.2rem;
+    color: #47e412;
+    text-align: center;
+    width: 100%;
+    background-color: #00000090;
+}
+
+.contenido_cap3 p {
+    width: 80%;
+    text-align: justify;
+    margin: 0 auto 2rem;
+    font-size: 2rem;
+    color: rgb(178, 173, 173);
+    margin-bottom: 15px;
+}
+
+.lista-info-cap3{
+    width: 70%;
+    margin: 0 auto 3rem;
+    font-size: 2rem;
+    color: rgb(178, 173, 173);
+    padding-left: 20px;
+    margin-bottom: 15px;
+    line-height: 1.3;
+}
+.lista-info-cap3 p {
+    font-size: 2rem;
+    color: rgb(178, 173, 173);
+    
+}
+
+.lista-info-cap3 li:hover{
+    color: greenyellow;
+    transform: scale(1.05);
+    transition: 0.3s;
+    text-shadow: 0 0 10px green;
+}
+
+.galeria-cap3{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    padding: 1rem;
+}
+.carrusel {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.carrusel-uno {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carrusel-dos {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.galeria-cap3 img{
+    width: 200px;
+    border-radius: 6px;
+    filter: drop-shadow(0 1px 11px yellowgreen);
+    transition: transform 2s ease;
+}
+ .galeria-cap3 img:hover{
+    transform: scale(1.3);
+ }
+.abajo{
+    width: 100%;
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.contenido_abajo_columnas-3{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.columna{
+    width: 33%;
+}
+
+.columna h2{
+    font-size: 2.4rem;
+    color: rgb(9, 238, 9);
+    text-align: center;
+    background-color: #00000090;
+    margin-bottom: 1.5rem;
+}
+
+.columna p{
+    font-size: 1.9rem;
+    /* color: rgb(255, 255, 255); */
+    width: 90%;
+    text-align: justify;
+    margin: 0 auto 2rem;
+}
+
+.galeria-sub{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 1.5rem;
+    overflow-x: auto;
+    padding: 1rem 0;
+}
+
+.galeria-sub img{
+    width: 160px;
+    border-radius: 6px;
+    display: block;
+    flex-shrink: 0;
+    filter: drop-shadow(0 1px 11px yellowgreen);
+    transition: transform 2s ease;
+}
+
+.galeria-cap3 img:hover{
+    transform: scale(1.2);
+}
+
+/* ---------------- ESTILO CAPITULO 4 ---------------- */
+h1{
+    color:#47e312 ;
+    font-size: 40px;
+    margin-left: 70px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.arriba{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenido_cap4 h2{
+    color: green;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+.contenido_cap4{
+    color: rgba(178,173,173);
+    width: 65%;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.contenido_cap4 h4 {
+    margin: 10px;
+}
+.contenido_cap4 ul{
+    margin: 6px;
+}
+.contenido_cap4 li{
+    margin: 10px;
+    margin-left: 30x;
+}
+.imagen_arriba img{
+    width: 90%; 
+    height: 90%;
+    border-radius: 40px;
+    filter:drop-shadow(0px 2px 11px rgb(46, 197, 46));
+    transition: transform 2s ease;
+}
+.imagen_arriba img:hover{
+    transform: scale(1.2);
+}
+.abajo {
+    width: 100%;;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: flex-start;
+    flex-direction: row-reverse;
+}
+.contenido_abajo{
+    color:  rgba(178,173,173);
+    width: 60%;
+    margin-left: 25%;
+    font-size: 20px;
+    margin-top: 10px;
+    font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.contenido_abajo h2{
+    color:  green;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+.contenido_abajo p{
+    margin-bottom: 10px;
+}
+.contenido_abajo ul{
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.contenido_abajo li{
+    margin-bottom: 9px;
+    margin-left: 30px;
+}
+.imagen_abajo{
+    width: 350px;  
+}
+.imagen_abajo img{
+    width: 150%;
+    height: 100%;
+    margin-left: 50px;
+    margin-top: 40%;
+    border-radius: 40px;
+    filter:drop-shadow(0px 2px 11px rgb(46, 197, 46));
+    transition: transform 2s ease;
+}
+.imagen_abajo img:hover{  
+    transform: scale(1.3);
+}
+
+/* ---------------- ESTILO CAPITULO 5 ---------------- */
 
 .contenedor-capitulo-cap5 {
     width: 100%;
@@ -145,7 +431,6 @@ body {
     margin-bottom: 6rem;
     margin-top: 8rem;
 }
-
 .contenedor-info-cap5 h1 {
     font-size: 4rem;
     color: #47e412;
@@ -153,7 +438,6 @@ body {
     width: 95%;
     margin: 0 auto;
 }
-
 .contenedor-info-cap5 p {
     width: 70%;
     text-align: justify;
@@ -198,42 +482,521 @@ body {
     text-shadow: 0 0 10px green;
 }
 
-/* -------------- CAPITULO 1 --------------------- */
 
-.contenedor-cap1 {
-    width: 90%;
-    margin: 0 auto;
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------- ESTILO CAPITULO 6 ---------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------- ESTILO CAPITULO 7 ---------------- */
+
+.contenido_cap7{
+    color:  rgba(178,173,173);
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    margin-left: 15%;
 }
-.titulo-uno {
-    font-size: 4rem;
-    text-align: center;
-    margin: 2rem 0px 3rem 0rem;
-    color: #47e412;
-    
-}
-.titulo-dos {
-    font-size: 4rem;
-    margin-bottom: 2rem;
-    color: green;
-}
-.parrafo-uno {
-    font-size: 2rem;
-    line-height: 1.3;
-    text-align: justify;
-}
-.parrafo-uno:hover {
-    background-color: rgba(0, 128, 0, 0.196);
-    transition: 1.1s ease;
-}
-.contenedor-img-cap1 {
+.cap_7 h1{
     width: 100%;
-    height: 40rem;
-    margin-top: 1.9rem;
+    height: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 41px;
+    margin-left: 100px;
+}
+.contenido_cap7 h3{
+    margin: 20px;
+}
+.contenido_cap7 li{
+    margin: 5px;
+    margin-left: 40px;
+}
+
+.contenido_cap7 p{
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.imagenes{
+    margin-top: 30px;
+    width: 100%;
+    height: auto;
+    display: flex;
     align-items: center;
     justify-content: center;
-    display: flex;
+} 
+.imagenes img{
+    margin-top: 50px;
+    margin-bottom: 200px;
+    width: 50%;
+    height: 50%;
+    border-radius: 40px;
+    box-shadow: 0 10px 15px rgba(122, 243, 24, 0.603);
+    background-color: rgba(0,0,0,0.5);
+    transition: transform 2s ease;
 }
-.contenedor-img-cap1 img {
-    width: 70rem;
-    filter:drop-shadow(0px 1px 11px rgb(46, 197, 46));
+.imagenes img:hover{
+    transform: scale(1.5);
 }
+
+
+/* ----------------------- ---------------------- ESTILOS PARA MEDIA QUERIES ------------------------- -------------------- */
+
+@media (max-width: 768px) {
+
+    /* ----------------- BODY ----------------- */
+    body {
+        padding-top: 7rem;
+        background-size: cover;
+    }
+
+    /* ----------------- NAV ----------------- */
+    .nav { 
+        width: 100%;
+        height: 60px;      
+        padding: 18px 40px; 
+        margin-bottom: 2rem;   
+    }
+
+    .nav ul {
+        width: 100%;
+        list-style: none;
+        display: flex; 
+        justify-content: center;
+        align-items: center;            
+        gap: 1rem;
+    }
+
+    .nav a {
+        text-decoration: none;
+        color: rgb(178, 173, 173);
+        font-weight: 200;
+        letter-spacing: 2px;       
+        font-size: 2rem;
+        border-bottom: 1px solid green;
+        box-shadow: 29px 9px 36px rgba(153, 205, 50, 0.751);
+    }
+    .nav a:hover {
+        color: rgb(178, 173, 173);
+        border: 1px solid green;  
+        padding: 0;             
+        border-radius: 0;
+        font-size: 2rem;  
+        box-shadow: none;       
+        transition: none;     
+}
+
+    /* ----------------- CAPÍTULO 1 ----------------- */
+    .contenedor-cap1 {
+        width: 95%;
+    }
+
+    .titulo-uno {
+        font-size: 2.4rem;
+    }
+    .titulo-dos {
+        font-size: 2.4rem;
+    }
+
+    .parrafo-uno {
+        font-size: 1.8rem;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .contenedor-img-cap1 {
+        height: auto;
+    }
+
+    .contenedor-img-cap1 img {
+        width: 65%;
+    }
+
+    /* ----------------- CAPÍTULO 2 ----------------- */
+    .titulo-cap2 {
+        font-size: 2rem;
+        margin-top: 5rem;
+        text-align: center;
+    }
+    .parrafo-cap2 {
+        font-size: 1.8rem;
+        color: rgb(178, 173, 173);
+        text-align: justify;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .contenedor-capitulo2 {
+        flex-direction: column;
+        height: auto;
+        padding: 1rem;
+        margin-top: 2rem 
+    }
+
+    .contenedor-izquierdo_capitulo2 {
+        width: 100%;
+        padding-bottom: 2rem;
+    }
+
+    .contenedor-izquierdo_capitulo2 h2 {
+        font-size: 2.4rem;
+    }
+    .contenedor-izquierdo_capitulo2 p {
+        width: 90%;
+        text-align: justify;
+        margin: 0 auto;
+        font-size: 1.8rem;
+        color: rgb(178, 173, 173);
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        line-height: 1.3;
+    }
+
+    .contenedor-izquierdo_capitulo2 img {
+        width: 175px;
+    }
+    .imagen-cap2 {
+        display: none;
+    }
+
+    .contenedor-izquierdo_capitulo2 .lista-info {
+        margin-left: 3rem;
+        font-size: 1.8rem;
+    }
+
+/* ----------------- CAPÍTULO 3 ----------------- */
+
+    .contenido_cap3 h1 {
+        font-size: 2.4rem;
+        margin-bottom: 2.2rem;
+        color: #47e412;
+        text-align: center;
+        width: 100%;
+        background-color: #00000090;
+    }
+    .contenido_cap3 p {
+        width: 90%;
+        text-align: justify;
+        margin: 0 auto 2rem;
+        font-size: 1.8rem;
+        color: rgb(178, 173, 173);
+        margin-bottom: 1.5rem;
+    }
+    .lista-info-cap3 {
+        width: 90%;
+        margin: 0 auto 3rem;
+        font-size: 1.8rem;
+        color: rgb(178, 173, 173);
+        padding-left: 17px;
+        margin-bottom: 3rem;
+        line-height: 1.3;
+    }
+    .carrusel-uno {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+    .carrusel-uno img {
+        width: 120px;
+    }
+    .carrusel-dos {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+    .carrusel-dos img {
+        width: 120px;
+    }
+
+    .img2, .img4 {
+        display: none;
+    }
+/* -------------------------- */
+
+    .abajo{
+        width: 100%;
+        margin-top: 2rem;
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .contenido_abajo_columnas-3{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .columna{
+        width: 90%;
+    }
+    .columna h2{
+        font-size: 2.4rem;
+        color: rgb(9, 238, 9);
+        text-align: center;
+        background-color: #00000090;
+        margin-bottom: 1.5rem;
+    }
+
+    .columna p{
+        font-size: 1.9rem;
+        /* color: rgb(255, 255, 255); */
+        width: 90%;
+        text-align: justify;
+        margin: 0 auto 2rem;
+    }
+
+    .galeria-sub{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        gap: 1.5rem;
+        overflow-x: auto;
+        padding: 1rem 0;
+    }
+
+    .galeria-sub img{
+        width: 160px;
+        border-radius: 6px;
+        display: block;
+        flex-shrink: 0;
+        filter: drop-shadow(0 1px 11px yellowgreen);
+        transition: transform 2s ease;
+    }
+
+    .galeria-cap3 img:hover{
+        transform: scale(1.2);
+    }
+
+    /* ----------------- CAPÍTULO 4 ----------------- */
+    h1 {
+        font-size: 2.4rem;
+        width: 90%;
+        text-align: center;
+        margin-top: 2rem;
+        margin: 0 auto;
+    }
+
+    .arriba{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 0; 
+        margin-top: 0;
+        padding: 0;
+    }
+    .contenido_cap4 h2{
+        color: green;
+        font-size: 2.4rem;
+        margin-bottom: 40px;
+    }
+    .contenido_cap4{
+        color: rgba(178,173,173);
+        width: 65%;
+        padding: 3rem;
+        display: flex;
+        flex-direction: column;
+        font-size: 20px;
+        font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .contenido_cap4 h4 {
+        margin: 10px;
+    }
+    .contenido_cap4 ul{
+        margin: 6px;
+    }
+    .contenido_cap4 li{
+        margin: 10px;
+        margin-left: 30x;
+    }
+    .imagen_arriba img:hover{
+        transform: scale(1.2);
+    }
+    
+    .abajo {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0rem;
+    }
+
+    .contenido_cap4,
+    .contenido_abajo {
+        width: 90%;
+        font-size: 1.7rem;
+        margin-left: 0;
+    }
+
+    .contenido_cap4 h2,
+    .contenido_abajo h2 {
+        font-size: 3rem;
+        text-align: center;
+    }
+    .imgagen_arriba {
+        width: 100%;
+    }
+
+    .imagen_arriba img {
+        width: 320px;
+        margin-left: 50px;
+    }
+    .imagen_abajo img {
+        display: none;
+        width: 90%;
+        margin: 2rem auto;
+        transform: none;
+    }
+
+    /* ----------------- CAPÍTULO 5 ----------------- */
+
+    .contenedor-capitulo-cap5 {
+        flex-direction: column;
+        margin-top: 5rem;
+    }
+
+    .contenedor-info-cap5 h1 {
+        font-size: 2.4rem;
+    }
+
+    .contenedor-info-cap5 p {
+        width: 90%;
+        text-align: justify;
+        line-height: 1.3;
+        margin: 0 auto;
+        font-size: 1.8rem;
+        color: rgb(178, 173, 173);
+        margin-top: 2rem;
+        margin-bottom: 0;
+        border-radius: 0;
+    }
+
+    .contenedor-info-cap5 article {
+        /* flex-direction: column; */
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    }
+    .contenedor-info-cap5 article div {
+        flex-direction: column;
+        margin: 0px 2rem;
+    }
+
+    .contenedor-info-cap5 .lista-info-cap5 {
+        margin-left: 0;
+        font-size: 1.8rem;
+    }
+
+    .lista-info-cap5 li a:hover {
+        font-size: 2rem;
+    }
+
+    /* ----------------- CAPÍTULO 7 ----------------- */
+    .contenido_cap7 {
+        width: 90%;
+        font-size: 2rem;
+        margin-left: 0;
+        margin: 0 auto;
+    }
+
+    .cap_7 h1 {
+        width: 100%;
+        height: 100%;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        font-size: 2.4rem;
+        margin-left: 0;
+    }
+    .contenido_cap7 h3{
+        margin: 0 auto;
+        color: green;
+    }
+    .contenido_cap7 p{
+        margin-top: 15px;
+        margin-bottom: 20px;
+        text-align: justify;
+    }
+    .imagenes{
+        margin-top: 0;
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    } 
+
+    .imagenes img {
+        width: 90%;
+        height: auto;
+        margin-bottom: 5rem;
+        transform: none;
+    }
+}
+
+
+
