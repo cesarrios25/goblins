@@ -74,15 +74,16 @@ body {
     color: #47e412;
     
 }
-.titulo-dos {
-    font-size: 4rem;
-    margin-bottom: 2rem;
-    color: green;
-}
 .parrafo-uno {
     font-size: 2rem;
     line-height: 1.3;
     text-align: justify;
+    margin-bottom: 4rem;
+}
+.parrafo-uno span {
+    color: green;
+    font-size: 4rem;
+    margin: 1rem 0rem;
 }
 .parrafo-uno:hover {
     background-color: rgba(0, 128, 0, 0.196);
@@ -286,7 +287,7 @@ body {
 }
 
 .columna h2{
-    font-size: 2.4rem;
+    font-size: 3rem;
     color: rgb(9, 238, 9);
     text-align: center;
     background-color: #00000090;
@@ -482,242 +483,61 @@ h1{
     text-shadow: 0 0 10px green;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ---------------- ESTILO CAPITULO 6 ---------------- */
 
-/* Capítulo 6 */
-.capitulo-seis {
-    padding: 40px 20px;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
 .contenedor-cap-seis {
-    background-color: rgba(43, 81, 52, 0.9);
-    padding: 30px;
-    border-radius: 15px;
-}
-
-.encabezado-capitulo {
-    text-align: center;
-    margin-bottom: 40px;
-}
-
-.image-one-one {
-    width: 200px;
+    width: 100%;
     height: auto;
-    margin-bottom: 20px;
-}
-
-.titulo-capitulo {
-    font-size: 3em;
-    color: #2c5031ba;
-    margin-bottom: 20px;
-}
-
-/* Idea central */
-.idea-central {
-    background-color: #f8f9fa;
-    padding: 25px;
-    border-left: 5px solid #466d87;
-    margin-bottom: 30px;
-}
-
-.subtitulo-principal {
-    color: #2980b9;
-    font-size: 1.8em;
-    margin-bottom: 15px;
-}
-
-.texto-central {
-    font-size: 1.2em;
-    line-height: 1.6;
-    color: #34495e;
-}
-
-/* Razones */
-.razones-supervivencia {
-    margin-bottom: 40px;
-}
-
-.titulo-razones {
-    font-size: 2em;
-    color: #e74c3c;
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-.razon {
-    background-color: #ecf0f1;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 10px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.razon:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-}
-
-.titulo-razon {
-    color: #16a085;
-    font-size: 1.5em;
-    margin-bottom: 15px;
-}
-
-.lista-conceptos {
-    list-style: none;
-    padding-left: 0;
-}
-
-.lista-conceptos li {
-    padding: 8px 0;
-    font-size: 1.1em;
-    line-height: 1.5;
-}
-
-.lista-conceptos strong {
-    color: #2c3e50;
-}
-
-/* Conclusión */
-.conclusion {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: white;
-    padding: 30px;
-    border-radius: 15px;
-    margin-bottom: 30px;
-}
-
-.titulo-conclusion {
-    font-size: 2em;
-    margin-bottom: 15px;
-    text-align: center;
-}
-
-.texto-conclusion {
-    font-size: 1.2em;
-    margin-bottom: 15px;
-}
-
-.lista-conclusion {
-    list-style: none;
-    padding-left: 20px;
-    margin-bottom: 20px;
-}
-
-.lista-conclusion li {
-    padding: 10px 0;
-    font-size: 1.1em;
-    position: relative;
-}
-
-.lista-conclusion li::before {
-    content: "→";
-    position: absolute;
-    left: -20px;
-    font-weight: bold;
-}
-
-.texto-final {
-    font-size: 1.3em;
-    text-align: center;
-    margin-top: 20px;
-}
-
-/* Galería */
-.galeria-cap-seis {
     display: flex;
-    justify-content: space-around;
-    gap: 20px;
-    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    margin-top: 8rem;
 }
 
-.image1,
-.image2 {
-    width: 300px;
-    height: auto;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    transition: transform 0.3s ease;
+.contenedor-cap-seis .image-one-one {
+    width: 450px;
+    margin: 0 auto;
+    filter: drop-shadow(0 2px 11px green);
+    transition: transform 2s ease;
 }
-
-.image1:hover,
-.image2:hover {
-    transform: scale(1.05);
+.contenedor-cap-seis .image-one-one:hover {
+    transform: scale(1.3);
 }
-
-
-@media (max-width: 768px) {
-    .titulo-capitulo {
-        font-size: 2em;
-    }
-    
-    .image1,
-    .image2 {
-        width: 100%;
-        max-width: 300px;
-    }
+.contenedor-cap-seis h1 {
+    width: 100%;
+    font-size: 4rem;
+    margin-bottom: 2.5rem;
+     color: #47e412;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.contenedor-cap-seis p {
+    width: 80%;
+    font-size: 2rem;
+    text-align: justify;
+}
+.contenedor-cap-seis h2 {
+    font-size: 3rem;
+    color: green;
+    margin: 2.2rem 0rem;
+    background-color: #000000;
+}
+.contenedor-image-cap6 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor-image-cap6 img {
+    width: 260px;
+    margin: 0 5rem;
+    margin-top: 3rem;
+    filter: drop-shadow(0 2px 11px green);
+    transition: transform 2s ease;
+}
+.contenedor-image-cap6 img:hover {
+    transform: scale(1.3);
+}
 
 
 
@@ -1129,6 +949,66 @@ h1{
     .lista-info-cap5 li a:hover {
         font-size: 2rem;
     }
+
+     /* ----------------- CAPÍTULO 6 ----------------- */
+
+     .contenedor-cap-seis {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    margin-top: 4rem;
+    }
+
+    .contenedor-cap-seis .image-one-one {
+        width: 240px;
+        margin: 0 auto;
+        margin-bottom: 2.2rem;
+        filter: drop-shadow(0 2px 11px green);
+        transition: transform 2s ease;
+    }
+    .contenedor-cap-seis .image-one-one:hover {
+        transform: scale(1.3);
+    }
+    .contenedor-cap-seis h1 {
+        width: 90%;
+        font-size: 2.4rem;
+        margin-bottom: 2.5rem;
+        color: #47e412;
+    }
+    .contenedor-cap-seis p {
+        width: 80%;
+        font-size: 1.8rem;
+        text-align: justify;
+    }
+    .contenedor-cap-seis h2 {
+        font-size: 2.2rem;
+        color: green;
+        margin: 2.2rem 0rem;
+        background-color: #000000;
+    }
+    .contenedor-image-cap6 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .contenedor-image-cap6 img {
+        width: 170px;
+        margin: 0 1rem;
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+        filter: drop-shadow(0 2px 11px green);
+        transition: transform 2s ease;
+    }
+    .contenedor-image-cap6 img:hover {
+        transform: scale(1.3);
+    }
+
+
 
     /* ----------------- CAPÍTULO 7 ----------------- */
     .contenido_cap7 {
