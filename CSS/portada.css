@@ -86,7 +86,7 @@ html {
 }
 .contenido-izquierdo p {
     margin: 6.7rem 1rem 9rem 9rem; 
-    text-align: center;
+    text-align: justify;
     font-size: 2.5rem;
     /* color: green; */
     color: rgb(178, 173, 173);
@@ -98,7 +98,7 @@ html {
 }
 .contenido-derecho img {
             
-    width: 430px;
+    width: 500px;
     border-radius: 7px;
     /* background-color: #080908a0; */
     transition: transform 2s ease;
