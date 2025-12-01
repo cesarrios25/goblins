@@ -497,7 +497,181 @@ h1{
 
 /* ---------------- ESTILO CAPITULO 6 ---------------- */
 
+/* Capítulo 6 */
+.capitulo-seis {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
+.contenedor-cap-seis {
+    background-color: rgba(43, 81, 52, 0.9);
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.encabezado-capitulo {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.image-one-one {
+    width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.titulo-capitulo {
+    font-size: 3em;
+    color: #2c5031ba;
+    margin-bottom: 20px;
+}
+
+/* Idea central */
+.idea-central {
+    background-color: #f8f9fa;
+    padding: 25px;
+    border-left: 5px solid #466d87;
+    margin-bottom: 30px;
+}
+
+.subtitulo-principal {
+    color: #2980b9;
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+.texto-central {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #34495e;
+}
+
+/* Razones */
+.razones-supervivencia {
+    margin-bottom: 40px;
+}
+
+.titulo-razones {
+    font-size: 2em;
+    color: #e74c3c;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.razon {
+    background-color: #ecf0f1;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.razon:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.titulo-razon {
+    color: #16a085;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.lista-conceptos {
+    list-style: none;
+    padding-left: 0;
+}
+
+.lista-conceptos li {
+    padding: 8px 0;
+    font-size: 1.1em;
+    line-height: 1.5;
+}
+
+.lista-conceptos strong {
+    color: #2c3e50;
+}
+
+/* Conclusión */
+.conclusion {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 30px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+.titulo-conclusion {
+    font-size: 2em;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.texto-conclusion {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+.lista-conclusion {
+    list-style: none;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.lista-conclusion li {
+    padding: 10px 0;
+    font-size: 1.1em;
+    position: relative;
+}
+
+.lista-conclusion li::before {
+    content: "→";
+    position: absolute;
+    left: -20px;
+    font-weight: bold;
+}
+
+.texto-final {
+    font-size: 1.3em;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Galería */
+.galeria-cap-seis {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.image1,
+.image2 {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+
+.image1:hover,
+.image2:hover {
+    transform: scale(1.05);
+}
+
+
+@media (max-width: 768px) {
+    .titulo-capitulo {
+        font-size: 2em;
+    }
+    
+    .image1,
+    .image2 {
+        width: 100%;
+        max-width: 300px;
+    }
+}
 
 
 
